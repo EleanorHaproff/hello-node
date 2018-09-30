@@ -1,5 +1,9 @@
 {
   "name": "hello-node",
   "version": "0.0.1",
-  "devDependencies": {}
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js",
+  },
 }
