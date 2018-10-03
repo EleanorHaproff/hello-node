@@ -36,7 +36,7 @@ jobs:
       # run tests!
       - run: yarn test
 
-        - run:
+      - run:
           name: Store Service Account
           command: echo $GCLOUD_SERVICE_KEY > ${HOME}/gcloud-service-key.json
 
